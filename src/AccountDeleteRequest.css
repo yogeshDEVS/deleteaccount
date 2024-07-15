@@ -1,0 +1,109 @@
+.account-delete-request {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .instructions {
+    margin-bottom: 30px;
+  }
+  
+  .instructions h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .instructions p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .captcha-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .captcha-code {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+  }
+  
+  button[type="button"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .delete-account-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-account-button:hover {
+    background-color: #0056b3;
+  }
+
+  .footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
